@@ -1,6 +1,109 @@
-img {
-	max-width: 50%;
-	height:auto;
-	width:auto;
+
+body {
 	text-align: center;
+	margin: 0 0 100px;
+	height: 100%;
+}
+
+
+#google {
+	display: block;
+	margin-top: 140px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -55px;
+	margin-top: 100px;
+}
+
+.button {
+
+    background-color: #F5F5F5; /* Grey */
+    border: none;
+    padding: 9px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+	margin-top: 30px;
+	color:#696969;
+	font-style: arial;
+}
+
+.topnav{
+
+	overflow: hidden;
+}
+
+/* style links inside navbar */
+#mynav{
+	float: right;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 18px 12px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#imnav{
+	float: right;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 12px 12px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+input {
+	font-family: Arial;
+	font-size: 100%;
+	width: 600px;
+	height:33px;
+	box-shadow: 5px 5px 5px #dadada;
+}
+
+.footer { /* styling the whole footer */
+	position: absolute;
+    left: 0px;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    background-color: #E8E8E8;
+    overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+
+.footer a{
+
+	float: left;
+	display:block;
+	color:#696969;
+	text-align: center;
+	padding: 16px 12px;
+	text-decoration: none;
+	font-size: 14px;
+	padding-left: 20px;
+	font-family: arial;
+}
+
+#myfoot{
+	float: right;
+}
+
+
+::-webkit-input-placeholder { Chrome/Opera/Safari
+  color: #C0C0C0;
+}
+::-moz-placeholder {  /*Firefox 19+*/
+  color: #C0C0C0;
+}
+:-ms-input-placeholder {  /*IE 10+*/
+  color: #C0C0C0;
+}
+:-moz-placeholder {  /*Firefox 18-*/
+  color: #C0C0C0	;
 }
