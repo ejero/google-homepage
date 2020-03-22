@@ -142,9 +142,9 @@ input:hover{
 }
 
 
-::-webkit-input-placeholder { Chrome/Opera/Safari
+/* ::-webkit-input-placeholder { Chrome/Opera/Safari
   color: #C0C0C0;
-}
+} */
 ::-moz-placeholder {  /*Firefox 19+*/
   color: #C0C0C0;
 }
@@ -152,5 +152,5 @@ input:hover{
   color: #C0C0C0;
 }
 :-moz-placeholder {  /*Firefox 18-*/
-  color: #C0C0C0	;
+  color: #C0C0C0;
 }
